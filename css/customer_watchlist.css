@@ -1,0 +1,93 @@
+/* ============================
+   Watchlist Page Styling
+   ============================ */
+
+/* Wrapper */
+.watchlist-wrapper {
+    padding: 20px;
+    margin-top: 100px; /* leave space for fixed header */
+    font-family: "Roboto", sans-serif;
+    color: var(--black);
+    background: var(--background);
+}
+
+/* Title */
+.watchlist-wrapper .watchlist-title {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+/* Container */
+.watchlist-wrapper .watchlist-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Card */
+
+
+.watchlist-wrapper .movie-card {
+    border: var(--border);
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background: var(--white);
+    box-shadow: var(--box-shadow);
+}
+/* Image */
+.watchlist-wrapper .movie-img {
+    
+	
+	width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Title inside card */
+.watchlist-wrapper .movie-title {
+    font-size: 1.6rem;
+    margin: 10px 0 5px;
+    color: var(--black);
+}
+
+/* Genre */
+.watchlist-wrapper .movie-genre {
+    font-size: 1.4rem;
+    color: var(--light-color);
+    margin-bottom: 10px;
+}
+
+/* Link */
+.watchlist-wrapper .details-link {
+    margin-top: auto;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.watchlist-wrapper .details-link:hover {
+    color: #236ba3;
+}
+
+/* Remove button */
+.remove-btn {
+    background: #dc3545; /* red */
+    color: white;
+    padding: 6px 12px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.remove-btn:hover {
+    background: #b02a37; /* darker red */
+} 
